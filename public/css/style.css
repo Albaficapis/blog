@@ -141,7 +141,22 @@
   .content {
     flex: 1;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    flex-flow: column;
+    align-self: center;
     align-items: center;
+    width: 100%;
+    background-color: deeppink;
+    max-width: 100rem;
+    padding: 2rem 0;
   }
+
+  .block {
+    border-radius: 3px;
+    border: --border;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+  }
+
+  /*utils*/
+  .p20 {padding: 2rem;}
+  .p10 {padding: 1rem;}
