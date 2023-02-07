@@ -148,7 +148,7 @@
     align-self: center;
     align-items: center;
     width: 100%;
-    background-color: deeppink;
+    /*background-color: deeppink;*/
     max-width: 100rem;
     padding: 2rem 0;
   }
